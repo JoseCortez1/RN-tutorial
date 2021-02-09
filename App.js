@@ -8,11 +8,15 @@ export default function App() {
   return (
       <View style={styles.container}>
         <CarItem />
-
       </View>
   );
 }
 
+
+/**
+ *  Styles is a component from RN for give a styling like CSS
+ * but is not CSS
+ */
 const styles = StyleSheet.create({
   container: {
     flex: 1,
